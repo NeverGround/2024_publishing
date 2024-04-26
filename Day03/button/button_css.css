@@ -1,0 +1,25 @@
+.button {
+  border: 1px solid #bdbdbd;
+  border-radius: 10px;
+  width: 400px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon {
+  font-size: 40px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-weight: 800;
+}

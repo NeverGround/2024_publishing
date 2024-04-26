@@ -1,0 +1,55 @@
+.HOME {
+  background-color: black;
+  color: white;
+  text-align: left;
+  width: 300px;
+  font-size: 30px;
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 800px;
+}
+.ABOUT {
+  background-color: black;
+  color: white;
+  text-align: left;
+  width: 300px;
+  font-size: 30px;
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 800px;
+}
+.CONTACT {
+  background-color: black;
+  color: white;
+  text-align: left;
+  width: 300px;
+  font-size: 30px;
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 800px;
+}
+.PORTFOLIO {
+  background-color: black;
+  color: white;
+  text-align: left;
+  width: 300px;
+  font-size: 30px;
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 800px;
+}
+.SIGN {
+  background-color: black;
+  color: white;
+  text-align: left;
+  width: 300px;
+  font-size: 30px;
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 800px;
+}

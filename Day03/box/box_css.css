@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  border; 1px; solid black;
+  width: 1000px;
+  height: 1000px;
+}
+
+.box {
+  /* 자기 부모의 비율 */
+  /* 1000px */
+  width: 100px;
+  /* 1000px */
+  height: 100px;
+}
+
+.green {
+  background-color: green;
+}
+.pink {
+  background-color: pink;
+}
+.blue {
+  background-color: blue;
+}
+.purple {
+  background-color: purple;
+}
