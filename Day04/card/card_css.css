@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "JalnanGothic";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/JalnanGothic.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.card.container {
+  display: flex;
+  gap: 15px;
+}
+
+.card {
+  width: 280px;
+  height: 380px;
+  border-radius: 12px;
+  background-image: url("pool.jpg");
+  background-size: cover;
+  filter: brightness(1.08);
+  padding: 10px 15px 10px 15px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.category > span {
+  color: white;
+  font-size: 14px;
+  border-bottom: 1px solide white;
+  border-bottom: 2px;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.description {
+}
