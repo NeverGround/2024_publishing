@@ -1,0 +1,84 @@
+.card {
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  border-radius: 30px;
+  width: 350px;
+  height: 600px;
+  padding: 50px 25px 50px 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  transition: all 0.5s;
+}
+.card:hover {
+  background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.imageBox {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  transition: 0.5s;
+  margin: 0 auto;
+}
+
+.imageBox > img:hover {
+  transform: scale(1.2);
+}
+.imageBox > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 90% center;
+}
+
+.introduce {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.sns-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.button {
+  background-color: white;
+  border-radius: 30px;
+  text-align: center;
+  padding: 20px;
+  transition: all 0.5s;
+}
+.button:hover {
+  font-size: 20px;
+  padding: 25px;
+}
+.sns-logo {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.logoBox {
+  font-style: normal;
+  gap: 20px;
+}
+.logoBox > i {
+  font-size: 20px;
+  transition: all 0.5s;
+}
+
+.logoBox > i:hover {
+  color: red;
+  font-size: 30px;
+}

@@ -1,0 +1,45 @@
+.card {
+  width: 200px;
+  height: 450px;
+  padding: 5px 5px 5px 5px;
+  display: cover;
+  flex-direction: column;
+  gap: 20px;
+  transition: all 0.5s;
+  transform: scale(1.3);
+}
+
+.card:hover {
+  font-size: 30px;
+}
+
+.imageBox {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  transition: all 1s;
+}
+.imageBox:hover {
+  font-size: 15px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.button {
+  background-color: blue;
+  border: 10px;
+  background-color: white;
+  border-radius: 30px;
+  text-align: center;
+  padding: 20px;
+  transition: all 0.5s;
+}
+.button:hover {
+  font-size: 20px;
+  padding: 25px;
+}
