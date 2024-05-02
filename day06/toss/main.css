@@ -1,0 +1,30 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("toss.png");
+  display: flex;
+  justify-content: center;
+}
+.contents {
+  margin-top: 170px;
+  font-family: "JalnanGothic";
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  margin-top: 10px;
+}
+.buttons {
+  display: flex;
+  gap: 5px;
+  margin: 10%;
+}
+.button {
+  background-color: black;
+  border-radius: 12px;
+  opacity: 0.8;
+  padding: 10px 16px;
+  color: white;
+}

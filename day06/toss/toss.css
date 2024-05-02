@@ -1,0 +1,51 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: skyblue;
+}
+.button {
+  width: 200px;
+  height: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 15%;
+  display: flex;
+  gap: 50px;
+  cursor: pointer;
+  font-size: 10px;
+  padding: 5px 5px 5px 5px;
+}
+.button1 {
+  width: 100px;
+  height: 20px;
+  background-color: black;
+  color: white;
+  border-radius: 15%;
+  display: flex;
+  gap: 50px;
+  cursor: pointer;
+  font-size: 10px;
+  flex-direction: column;
+  padding: 5px 5px 5px 5px;
+}
+.apple {
+}
+.google {
+}
+.text {
+  font-size: 66px;
+  font-display: flex;
+  font-style: normal;
+  display: column;
+}
+.imageBox {
+  display: flex;
+  border-image: auto;
+}
+@font-face {
+  font-family: "JalnanGothic";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/JalnanGothic.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}

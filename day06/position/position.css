@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  font-size: 50px;
+}
+.body {
+  height: 300vh;
+}
+.box {
+  width: 300px;
+  height: 300px;
+  color: black;
+  font-size: 50px;
+}
+.skyblue {
+  background-color: #00a8ff;
+}
+.blue {
+  background-color: #0097e6;
+  z-index: 2;
+}
+.red {
+  position: fixed;
+  top: 0px;
+  background-color: red;
+}
+.title {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
