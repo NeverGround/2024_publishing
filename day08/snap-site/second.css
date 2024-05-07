@@ -1,0 +1,35 @@
+.second {
+  display: flex;
+  align-items: center;
+}
+.second__contents {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+.second__contents {
+  width: 100%;
+  max-width: 1200px;
+}
+.second__contents__title {
+  font-size: 25px;
+  color: white;
+}
+.second__contents__button {
+  font-size: 24px;
+  padding: 16px 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+  width: fit-content;
+  margin-top: 20px;
+}
+.secont__contents__image {
+  width: 100%;
+  height: 350px;
+}
+.secont__contents__image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
