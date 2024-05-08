@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "GasoekOne-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_JAMO@1.0/GasoekOne-Regular.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+.container {
+  width: 500px;
+  height: 500px;
+  display: flex;
+}
+.box {
+  font-size: 35px;
+  font-family: "GasoekOne-Regular";
+}
+.box1 {
+  font-size: 15px;
+  font-family: "GasoekOne-Regular";
+}
+.title {
+  width: 100vw;
+  height: 80vh;
+  color: white;
+  font-size: 55px;
+}
+.imageBox {
+  width: 1000px;
+  height: 400px;
+  display: flex;
+  max-width: 1024px;
+  margin: 0 auto;
+  background-image: url("inno.jpg");
+}
+.imageBox > span {
+  color: black;
+  font-size: 13px;
+  font-family: "GasoekOne-Regular";
+}
+.button {
+  border: 1px solid white;
+  cursor: pointer;
+}
+.button2 {
+  width: 1000px;
+  height: 500px;
+  border: 1px solid white;
+}
+main {
+  font-size: 11px;
+}
+@media screen and (max-widht: 1200px) {
+  .container {
+    max-width: 523px;
+  }
+}
