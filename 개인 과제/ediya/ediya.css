@@ -1,0 +1,40 @@
+.container {
+  width: 325px;
+  height: 550px;
+  flex-direction: row;
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+}
+.cardBox {
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: center;
+  background-color: silver;
+  font-weight: 500;
+}
+.imageBox {
+  display: flex;
+  transition: all 0.3s;
+}
+.imageBox:hover {
+  transform: scale(1.08);
+}
+.imageBox > span {
+  font-size: 10px;
+}
+
+.text {
+  font-size: 20px;
+  font-weight: 500;
+}
+.button {
+  width: 80px;
+  height: 30px;
+  background-color: blue;
+  text-align: center;
+  color: white;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
