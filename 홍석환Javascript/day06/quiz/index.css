@@ -1,0 +1,51 @@
+.container {
+  border: "1px solid black";
+}
+.box {
+  width: "99px";
+  height: "99px";
+}
+.box1 {
+  width: "55px";
+  height: "55px";
+}
+.box2 {
+  width: "77px";
+  height: "77px";
+}
+
+.small {
+  width: "11px";
+  height: "11px";
+}
+.medium {
+  width: "44px";
+  height: "44px";
+}
+.large {
+  width: "130px";
+  height: "130px";
+}
+.x-large {
+  width: "333px";
+  height: "333px";
+}
+.xx-large {
+  width: "777px";
+  height: "777px";
+}
+.borderRadiusZero {
+  border-radius: "0px";
+}
+.borderRadiusTen {
+  border-radius: "10px";
+}
+.borderRadiusTwenty {
+  border-radius: "20px";
+}
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
