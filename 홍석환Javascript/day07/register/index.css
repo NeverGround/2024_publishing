@@ -1,0 +1,34 @@
+/* .box2 {
+  background-color: black;
+  color: white;
+  font-size: 25px;
+  width: 500px;
+  height: 40px;
+  border-radius: 40px;
+  text-align: center;
+  padding: 20px 0px 10px 0px;
+} */
+
+.optionList {
+  display: flex;
+  flex-direction: column;
+}
+.notChechked {
+  color: #bdbdbd;
+}
+.chechked {
+  color: black;
+}
+
+.notPassed {
+  background-color: #bdbdbd;
+}
+.Passed {
+  background-color: black;
+}
+
+.button {
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
