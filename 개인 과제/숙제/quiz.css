@@ -1,0 +1,9 @@
+.box {
+    display: flex;
+    width: 33px;
+    height: 33px;
+}
+.text{
+    font-size: 13px;
+    text-align: center;
+}
