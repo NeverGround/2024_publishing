@@ -1,0 +1,182 @@
+.allContainer {
+  display: flex;
+  width: 1900px;
+}
+.maincontainer {
+  display: flex;
+  width: 1900px;
+  height: 20000px;
+}
+.subContainer {
+  display: flex;
+  width: 1900px;
+  height: 20000px;
+  justify-content: center;
+}
+.categoryContainer {
+  display: flex;
+  width: 1900px;
+  height: 16000px;
+}
+.highBar {
+  display: flex;
+  width: 1900px;
+  height: 250px;
+}
+.high1Bar {
+  display: flex;
+  width: 1900px;
+  height: 150px;
+  background-color: black;
+  margin-top: -10px;
+  margin-left: -10px;
+}
+.blackCvr {
+  display: flex;
+  width: 1900px;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+}
+.blackBox {
+  display: flex;
+  width: 400px;
+  height: 100px;
+  text-align: left;
+}
+.blackText {
+  color: white;
+  font-size: 18px;
+}
+.blackText > p > span {
+  color: #8f69dd;
+}
+.blackInPurple {
+  display: flex;
+  width: 120px;
+  height: 55px;
+  background-color: #8f69dd;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+.purpleIn {
+  color: white;
+}
+.high2Bar {
+  display: 1900px;
+  width: 1900px;
+  height: 100px;
+  background-color: #8f69dd;
+  margin-top: 140px;
+  margin-left: -1900px;
+  text-align: center;
+}
+.purpleCvr {
+  display: flex;
+  width: 1300px;
+  height: 50px;
+  text-align: right;
+}
+.purpleBox {
+  display: flex;
+  width: 1900px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.purpleTextBox {
+  display: flex;
+  width: 150px;
+  height: 50px;
+  font-size: 30px;
+  margin-left: 150px;
+}
+.eitherTextBox1 {
+  display: flex;
+  width: 300px;
+  height: 60px;
+}
+.purpleBars {
+  display: flex;
+  width: 1650px;
+  height: 100px;
+  justify-content: right;
+  align-items: center;
+  cursor: pointer;
+  font-size: 27px;
+}
+.barsBox {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  font-size: 20px;
+  margin-right: -160px;
+}
+.category-Sub {
+  display: flex;
+  width: 1900px;
+  height: 15000px;
+  margin-left: -1910px;
+  margin-top: 241px;
+}
+.category-Sub1-1 {
+  width: 1900px;
+  height: 370px;
+  align-items: center;
+  background-color: #8f69dd;
+}
+.textBox1-1 {
+  display: flex;
+  width: 1250px;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+  margin-left: -250px;
+  margin-top: 100px;
+}
+.text1 {
+  font-size: 20px;
+}
+.imageBox1-1 {
+  display: flex;
+  width: 1900px;
+  height: 154px;
+  align-items: center;
+  justify-content: center;
+  margin-left: -500px;
+  gap: 30px;
+}
+.appStore {
+  display: flex;
+  width: 180px;
+  height: 60px;
+  background-color: white;
+  border: 1px solid blue;
+  border-radius: 5px;
+  gap: 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.googleStore {
+  display: flex;
+  width: 180px;
+  height: 60px;
+  background-color: white;
+  border: 1px solid blue;
+  border-radius: 5px;
+  gap: 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.imageBox1-2 {
+  display: flex;
+  width: 670px;
+  height: 700px;
+}
